@@ -8,12 +8,12 @@ const AccountSettings = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const navigate = useNavigate();
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
   useEffect(() => {
     const fetchUserData = async () => {
       try {
-        const response = await axios.get(
-          `http://localhost:5000/api/user/me`,
+        const response = await axios.get(`${API_BASE_URL}/api/user/me`,
           {
             withCredentials: true,
             headers: {
