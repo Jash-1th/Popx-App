@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGODB_URI)
 
 // server/app.js
 app.use(cors({
-  origin: 'https://popx-frontend.onrender.com',
+  origin: 'http://localhost:5173',
   credentials: true
 }));
 app.use(express.json());
