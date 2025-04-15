@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000',
+        target: "https://popx-app-backend.onrender.com" || 'http://localhost:5000',
         changeOrigin: true,
         secure: false,
       }
