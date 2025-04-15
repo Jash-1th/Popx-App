@@ -21,7 +21,7 @@ const AccountSettings = () => {
             }
           }
         );
-        console.log(response);
+        console.log(response.data);
         setUserData(response.data);
       } catch (error) {
         console.error('Account settings error:', error);
