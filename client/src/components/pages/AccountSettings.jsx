@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Container, Typography, Box, Avatar, Paper, CircularProgress, Alert , Button} from '@mui/material';
+import { Container, Typography, Box, Avatar, Paper, CircularProgress, Alert, Button } from '@mui/material';
 import axios from 'axios';
 
 const AccountSettings = () => {
@@ -36,7 +36,7 @@ const AccountSettings = () => {
     };
 
     fetchUserData();
-  }, [navigate]);
+  }, [navigate , API_BASE_URL]);
 
   // Loading state
   if (loading) {
