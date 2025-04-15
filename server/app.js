@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGODB_URI)
 
 // server/app.js
 const allowedOrigins = [
-  'https://popx-app-frontend3.onrender.com', // Your frontend URL
+  'https://popx-app-frontend10.onrender.com', // Your frontend URL
   'http://localhost:5173' // For local development
 ];
 
