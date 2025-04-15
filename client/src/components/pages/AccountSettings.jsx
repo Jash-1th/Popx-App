@@ -125,7 +125,7 @@ const AccountSettings = () => {
           flexShrink: 0
         }}>
           <Avatar
-            src={userData.profileImage || 'https://media.istockphoto.com/id/1562983249/photo/portrait-of-happy-and-successful-businessman-indian-man-smiling-and-looking-at-camera.jpg?s=612x612&w=0&k=20&c=tfBv6taG9nTidFwENcrvEEvRHABN5gDAmg-K1G1Etnc='}
+            src={ 'https://media.istockphoto.com/id/1562983249/photo/portrait-of-happy-and-successful-businessman-indian-man-smiling-and-looking-at-camera.jpg?s=612x612&w=0&k=20&c=tfBv6taG9nTidFwENcrvEEvRHABN5gDAmg-K1G1Etnc='}
             alt="User Profile"
             sx={{
               width: '100%',
